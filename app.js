@@ -1,2 +1,4 @@
-var username = prompt("What is your name? ");
-alert("Welcome "+username+"!");
+
+
+var ClickBtn = document.querySelector("#btn-click");
+console.log(ClickBtn);
