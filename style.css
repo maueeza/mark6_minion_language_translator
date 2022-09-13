@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    font-family: 'Rampart One', cursive;
+    margin: 0px;
+    justify-content: center;
+}
+
+:root{
+    --primary-color : #dbc85d;
+    --width-break : 600px;
+    
+
+}
+nav{
+    display: block;
+    text-align: center;
+    
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+#btn-click{
+    text-align: center;
+    height: 3rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    width: 5cm;
+  /* position: relative;
+    left: var(--width-break);*/
+    cursor: pointer;
+    margin-top: 1cm;
+   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+#heading-div{
+    display: block;
+    color: black;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    padding: 1rem;    
+}
+
+
+#output-title{
+    position: relative;
+    margin: auto;
+    text-align: left;
+    /*left: var(--width-break);*/
+    font-family: 'Courgette', cursive;
+}
+
+#output-text{
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+    min-height: 10vh;
+    max-height: 20vh;
+    /*margin-left: var(--width-break);*/
+    padding: 10px;
+    /*position: relative;
+    left: var(--width-break);*/
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+textarea{
+    width : 100%;
+    display: block;
+    /*margin-left : var(--width-break);*/
+    margin-top: 2rem;
+    min-height: 10vh;
+    max-height: 20vh;
+    padding: 10px;
+    box-sizing: border-box;
+    /*position: relative;
+    left: var(--width-break);*/
+
+}
