@@ -94,6 +94,7 @@ textarea{
     left: var(--width-break);*/
     font-weight: bold;
     font-size: large;
+    resize: none;
 
 }
 
